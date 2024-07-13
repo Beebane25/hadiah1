@@ -1,0 +1,85 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0e6f6;
+    text-align: center;
+    padding: 50px;
+}
+
+.container {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    color: #d45d79;
+    font-size: 50px;
+
+}
+
+p {
+    color: #555;
+    font-size: 30px;
+
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+    display: block;
+    margin: 0 auto;
+}
+.slide {
+    display: none; /* Sembunyikan semua gambar */
+    max-width: 60%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.slideshow {
+    max-width: 60%;
+    margin: 0 auto;
+}
+
+/* Tampilkan gambar pertama */
+.slide:first-child {
+    display: block;
+}
+
+.next{
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    transform: translateY(1400%);
+    padding: 10px 15px;
+    background-color: #d45d79;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    z-index: 10;
+}
+
+.prev {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    transform: translateY(1400%);
+    padding: 10px 15px;
+    background-color: #d45d79;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    z-index: 10;
+}
+
+.prev {
+    left: 270px;
+}
+
+.next {
+    right: 270px;
+}
